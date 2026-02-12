@@ -1,9 +1,9 @@
 //learn about the DOM (Document Object Model) in JavaScript 
 //The DOM is a programming interface for web documents. 
-It represents the page so that programs can change the document 
-structure, style, and content. The DOM represents the document as 
-nodes and objects; that way, programming languages can interact with
- the page.
+//It represents the page so that programs can change the document 
+//structure, style, and content. The DOM represents the document as 
+//nodes and objects; that way, programming languages can interact with
+ //the page.
 
 //To access the DOM in JavaScript, you can use the `document` object.
 //For example, to get an element by its ID: 
