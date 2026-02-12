@@ -6,6 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72gPgK33sSrTQQnArYLptLVVLgkonneBQjc4nu9qobJ3c8AMCstP2hzplPL" crossorigin="anonymous">
     <title>Item Lister</title>
+    <style>
+        #container {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        #items {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 0;
+        }
+        #items .list-group-item {
+            width: 100%;
+            text-align: center;
+            border: 1px solid #dee2e6;
+        }
+        #items .list-group-item:first-child {
+            border-top-left-radius: 0.25rem;
+            border-top-right-radius: 0.25rem;
+        }
+        #items .list-group-item:last-child {
+            background-color: #ffd700;
+            font-weight: bold;
+            border-bottom-left-radius: 0.25rem;
+            border-bottom-right-radius: 0.25rem;
+        }
+    </style>
 </head>
 <body>
     <header id="main-header" class="bg-success text-white p-4 mb-3">
@@ -22,8 +52,13 @@
             </form>
             <h2 class="title">Items</h2>
             <ul id="items" class="list-group">
+                <li class="list-group-item">Item 1</li>
+                <li class="list-group-item">Item 2</li>
+                <li class="list-group-item">Item 3</li>
+                <li class="list-group-item">Item 4</li>
             </ul>
         </div>
     </div>
+    <script src="js-dom.js"></script>
 </body>
 </html>
