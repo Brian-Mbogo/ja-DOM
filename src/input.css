@@ -1,0 +1,6 @@
+/*
+  Tailwind entry file.
+  The CLI reads this file and expands the import into utility classes
+  based on classes detected in your HTML/JS templates.
+*/
+@import "tailwindcss";
